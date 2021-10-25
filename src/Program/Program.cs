@@ -15,7 +15,7 @@ namespace Program
             Node n6 = new Node(6);
             Node n7 = new Node(7);
 
-            n1.AddChildren(n2);
+            n1.AddChildren(n1);
             n1.AddChildren(n3);
 
             n2.AddChildren(n4);
@@ -24,7 +24,19 @@ namespace Program
             n3.AddChildren(n6);
             n3.AddChildren(n7);
 
+            Person person1 = new Person("Mateo",21);
+            Person person2 = new Person("Bruno",23);
+            Person person3 = new Person("Sebastian",24);
+            Person person4 = new Person("Rodrigo",25);
+            Person person5 = new Person("Corina",26);
+            Person person6 = new Person("Maria",27);
+            Person person7 = new Person("Milagros",28);
+            Person person8 = new Person("Pilar",22);
+
+            
             // visitar el árbol aquí
+
+
         }
     }
 }
